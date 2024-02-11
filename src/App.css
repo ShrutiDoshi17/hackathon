@@ -1,42 +1,61 @@
-#root {
-  max-width: 1280px;
+.cloud-platform-calculator {
+  max-width: 500px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.cloud-platform-calculator h2 {
+  margin-top: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cloud-platform-calculator form div {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cloud-platform-calculator form label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.card {
-  padding: 2em;
+.cloud-platform-calculator form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
-.read-the-docs {
-  color: #888;
+.cloud-platform-calculator form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cloud-platform-calculator form button:hover {
+  background-color: #0056b3;
+}
+
+.cloud-platform-calculator .results {
+  margin-top: 20px;
+}
+
+.cloud-platform-calculator table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cloud-platform-calculator table th,
+.cloud-platform-calculator table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cloud-platform-calculator table th {
+  background-color: #007bff;
+  color: #fff;
 }
