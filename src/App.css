@@ -1,61 +1,82 @@
+/* CloudPlatformCalculator.css */
 .cloud-platform-calculator {
-  max-width: 500px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+  background-color: #f9f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(239, 220, 220, 0.1);
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change default font size */
+}
+
+.cloud-platform-calculator h1 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .cloud-platform-calculator h2 {
   margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.cloud-platform-calculator form div {
-  margin-bottom: 10px;
+.input-section {
+  margin-bottom: 20px;
 }
 
-.cloud-platform-calculator form label {
+.input-section label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
-.cloud-platform-calculator form input {
-  width: 100%;
-  padding: 8px;
+.input-section select,
+.input-section input[type="number"] {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change input font size */
 }
 
-.cloud-platform-calculator form button {
+.input-section button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #37475e;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change button font size */
 }
 
-.cloud-platform-calculator form button:hover {
-  background-color: #0056b3;
+.input-section button:hover {
+  background-color: #87a3c0;
 }
 
-.cloud-platform-calculator .results {
+.results {
   margin-top: 20px;
 }
 
-.cloud-platform-calculator table {
+.results table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.cloud-platform-calculator table th,
-.cloud-platform-calculator table td {
+.results th,
+.results td {
   padding: 10px;
   border: 1px solid #ccc;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px; /* Change table font size */
 }
 
-.cloud-platform-calculator table th {
-  background-color: #007bff;
+.results th {
+  background-color: #ab0e0e;
   color: #fff;
 }
