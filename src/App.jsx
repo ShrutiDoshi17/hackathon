@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Chart from 'chart.js/auto';
-
+///why is this happeninggggg
 const CloudPlatformCalculator = () => {
   const [computeHours, setComputeHours] = useState(0);
   const [storageGB, setStorageGB] = useState(0);
